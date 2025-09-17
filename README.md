@@ -26,10 +26,12 @@ An interactive Streamlit-based web application for solving and visualizing **num
 ## 📁 File Structure
 
 ```
-├── app.py                      # Main Streamlit app (UI + session state)
-├── solvers.py                  # Core numerical algorithms (bisection, fixed-point, etc.)
-├── utils.py                    # Helper functions (history, reports, file handling)
-├── plots.py                    # Visualization functions (function and cobweb plots)
+├── src/                        
+│   ├── app.py                      # Main Streamlit app (UI + session state)
+│   ├── solvers.py                  # Core numerical algorithms (bisection, fixed-point, etc.)
+│   ├── utils.py                    # Helper functions (history, reports, file handling)
+│   ├── plots.py                    # Visualization functions (function and cobweb plots)
+│   ├── __init__.py                 # Makes src a package
 ├── requirements.txt            # Required dependencies
 ├── numerical_methods_history.json # Saved problem history
 └── graphs/                     # Directory for generated plots
