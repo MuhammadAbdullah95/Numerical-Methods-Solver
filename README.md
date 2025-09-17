@@ -1,4 +1,6 @@
 # Numerical Method Solver: Numerical Computing Toolkit
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 An interactive Streamlit-based web application for solving and visualizing **numerical computing methods**. Currently, it includes the **Bisection Method** and **Fixed-Point Iteration**, with plans to add more numerical techniques in the future (e.g., Newton-Raphson, Secant Method, etc.). This toolkit is designed for students, educators, and professionals who want to explore root-finding algorithms and other numerical methods interactively.
 
